@@ -105,7 +105,6 @@ public class ContactsWrapper extends ReactContextBaseJavaModule implements Activ
         }
     }
 
-    @Override
     public void onActivityResult(Activity ContactsWrapper, final int requestCode, final int resultCode, final Intent intent) {
 
         if(mContactsPromise == null || mCtx == null
